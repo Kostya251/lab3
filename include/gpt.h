@@ -3,7 +3,6 @@
 // static const uint8_t gpt_header_signature = {0x4546492050415254};
 #define GPT_HEADER_SIGNATURE 0x5452415020494645
 #define GPT_PART_NAME_LEN (72 / sizeof(uint16_t))
-#define SECTOR_SIZE 512
 typedef struct
 {
     uint32_t time_low;

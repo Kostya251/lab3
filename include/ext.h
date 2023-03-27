@@ -1,6 +1,7 @@
 #pragma once
 #include "resources.h"
-class Ext
+#include "fs.h"
+class Ext : public FS
 {
 public:
     Ext();
